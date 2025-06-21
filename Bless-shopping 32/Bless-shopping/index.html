@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Olivier-shopping business</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="Image/affiche du site.png" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Bienvenue chez Oliver-Shopping Business</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#products">Produits</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">À propos</a></li>
+      </ul>
+      <!-- Theme Toggle Button -->
+    </nav>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Rechercher...">
+      <button id="search-button">🔍</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h2>Découvrez les dernières tendances à la mode</h2>
+    <p>Chez Oliver-Shopping, nous sélectionnons pour vous les meilleures baskets et accessoires.</p>
+    <div class="trend-images">
+      <img src="Image/photo.td.JPG" alt="Tendance 1">
+      <img src="Image/photo.td2.JPG" alt="Tendance 2">
+      <img src="Image/photo.td3.JPG" alt="Tendance 3">
+      <img src="Image/photo.td4.JPG" alt="Tendance 4">
+      <img src="Image/photo.td5.JPG" alt="Tendance 5">
+    </div>
+    <div class="brand-links">
+      <a href="Nike/Nike Air.html">Nike</a>
+      <a href="adidas/Adidas.html">Adidas</a>
+      <a href="Jordan/Jordan.html">Air Jordan</a>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h2>Nos Produits</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="Jordan/Jordan11.JPG" alt="Jordan 11">
+        <h3>Jordan 11</h3>
+        <p>Description du produit 1.</p>
+        <p>Prix: 100€</p>
+        <p>Taille: 43</p>
+        <p>Couleur: Rouge Noir</p>
+        <button>Ajouter au panier</button>
+      </div>
+      <div class="product">
+        <img src="Adidas/adidas3.JPG" alt="Adidas 3">
+        <h3>Adidas 3</h3>
+        <p>Description du produit 2.</p>
+        <p>Prix: 50$</p>
+        <p>Taille: 33</p>
+        <p>Couleur: Gris Blanc</p>
+        <button>Ajouter au panier</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    <form id="contactForm">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" required />
+
+      <label for="subject">Sujet :</label>
+      <input type="text" id="subject" required />
+
+      <label for="message">Message :</label>
+      <textarea id="message" rows="5" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+    <div class="contact-info">
+      <p><strong>Email:</strong> oliviermbensa15@gmail.com</p>
+      <p><strong>Téléphone:</strong> +243 816007596</p>
+      <p><strong>Adresse:</strong> Kinshasa, RDC</p>
+    </div>
+    <div id="confirmationMessage" class="hidden">
+      <p>Votre message a été envoyé avec succès !</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>À propos</h2>
+    <div class="about-content">
+      <p>Bienvenue sur notre site ! Nous sommes une équipe passionnée dédiée à fournir des informations de qualité dans notre domaine.</p>
+      <img src="Image/bussines pic.png" alt="À propos de nous">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Olivier-Shopping Business. Tous droits réservés.</p>
+    <div class="social-icons">
+      <a href="https://wa.me/+243816007596"><img  src="Image/logo.whatsapp.JPG" alt="WhatsApp"></a>
+      <a href="@swirlyze"><img src="Image/logo.tiktok.JPG" alt="TikTok"></a>
+      <a href="olivier mbensa"><img src="Image/logo.fb.JPG" alt="Facebook"></a>
+      <a href="meetraxsan"><img src="Image/logo.instagram.JPG" alt="Instagram"></a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

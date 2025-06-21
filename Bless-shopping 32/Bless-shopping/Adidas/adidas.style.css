@@ -1,0 +1,23 @@
+h1 {
+    text-transform: uppercase;
+    letter-spacing:3px ;
+    text-align: center;
+}
+
+
+body {
+    background: url(/Adidas/fd.adidas.JPG);
+}
+#backButton {
+    background-color: #4CAF50; /* Couleur verte */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Animation de transition */
+}
+
+#backButton:hover {
+    background-color: #45a049; /* Changement de couleur au survol */
+}
